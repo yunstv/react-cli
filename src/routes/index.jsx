@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom'
 const Router = process.env.ENV_NAME !== 'develop' ? BrowserRouter : BrowserRouter
 
 import ViewIndex from 'src/views/index'
-import ViewGoodsDetails from 'src/views/goods_details'
+import ViewGoodsDetails from 'src/views/goods-details'
 
 const Routes = () => {
   return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import AppLink from 'src/component/AppLink'
-
+import VIEW from 'src/hoc/view'
+@VIEW
 class ViewsGoodsDetails extends React.Component {
   render() {
     return <div>

@@ -6,12 +6,12 @@ const APP_CONFIG = {
 }
 const path = require('path')
 
-const prefixPath = '/zy'
+const prefixPath = ''
 
 // 打包的出口目录
 const prodPath = APP_CONFIG.prodPath || 'dist'
 
-const assetsPrePath = `${prefixPath}/${prodPath}/`
+const assetsPrePath = '' && `${prefixPath}/${prodPath}/`
 
 /**
  * 

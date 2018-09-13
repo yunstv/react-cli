@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development PACKAGE=development webpack-dev-server --host 127.0.0.1 --progress --config build/webpack.dev.config.js"
+    "dev": "cross-env NODE_ENV=development PACKAGE=development webpack-dev-server --host 127.0.0.1 --progress --config build/webpack.dev.config.js",
+    "prod": "cross-env NODE_ENV=production PACKAGE=production node build/index.js",
+    "test": "cross-env NODE_ENV=production PACKAGE=test node build/index.js"
+  
   },
   "keywords": [
     "zhouyang is webpack"
