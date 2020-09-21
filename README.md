@@ -1,36 +1,27 @@
-# React-cli
-
-## 下载 node_modules
-```base
-yarn
+## Project setup
+```
+yarn install
 ```
 
-## 本地运行
-```base
-yarn run dev
+### Compiles and hot-reloads for development
+```
+yarn run serve
 ```
 
-## 打包
-```base
+### Compiles and minifies for production
+```
 yarn run build
 ```
 
+### Run your tests
 ```
-src                        开发目录
---assets                   静态资源目录
-----images
-----scss
-----...
---component                组件目录
-----...
---redux                    redux目录
-----actions
-----reducers
-----store
-----connect.js
---routes                   routes目录
---views                    视图目录
-----index
-main.jsx                   入口文件
-template.html              html模版
+yarn run test
 ```
+
+### Lints and fixes files
+```
+yarn run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
